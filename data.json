@@ -1,0 +1,3058 @@
+{
+  "DataSet": {
+    "$": {
+      "xmlns": "http://tempuri.org/"
+    },
+    "xs:schema": [
+      {
+        "$": {
+          "id": "NewDataSet",
+          "xmlns": "",
+          "xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+          "xmlns:msdata": "urn:schemas-microsoft-com:xml-msdata"
+        },
+        "xs:element": [
+          {
+            "$": {
+              "name": "NewDataSet",
+              "msdata:IsDataSet": "true",
+              "msdata:UseCurrentLocale": "true"
+            },
+            "xs:complexType": [
+              {
+                "xs:choice": [
+                  {
+                    "$": {
+                      "minOccurs": "0",
+                      "maxOccurs": "unbounded"
+                    },
+                    "xs:element": [
+                      {
+                        "$": {
+                          "name": "CASE_SUMMARY"
+                        },
+                        "xs:complexType": [
+                          {
+                            "xs:sequence": [
+                              {
+                                "xs:element": [
+                                  {
+                                    "$": {
+                                      "name": "DPName",
+                                      "type": "xs:string",
+                                      "minOccurs": "0"
+                                    }
+                                  },
+                                  {
+                                    "$": {
+                                      "name": "CaseTime",
+                                      "type": "xs:string",
+                                      "minOccurs": "0"
+                                    }
+                                  },
+                                  {
+                                    "$": {
+                                      "name": "Name",
+                                      "type": "xs:string",
+                                      "minOccurs": "0"
+                                    }
+                                  },
+                                  {
+                                    "$": {
+                                      "name": "CaseLocationDistrict",
+                                      "type": "xs:string",
+                                      "minOccurs": "0"
+                                    }
+                                  },
+                                  {
+                                    "$": {
+                                      "name": "CaseLocationDescription",
+                                      "type": "xs:string",
+                                      "minOccurs": "0"
+                                    }
+                                  },
+                                  {
+                                    "$": {
+                                      "name": "CaseDescription",
+                                      "type": "xs:string",
+                                      "minOccurs": "0"
+                                    }
+                                  },
+                                  {
+                                    "$": {
+                                      "name": "CaseComplete",
+                                      "type": "xs:boolean",
+                                      "minOccurs": "0"
+                                    }
+                                  },
+                                  {
+                                    "$": {
+                                      "name": "PName",
+                                      "type": "xs:string",
+                                      "minOccurs": "0"
+                                    }
+                                  },
+                                  {
+                                    "$": {
+                                      "name": "Wgs84X",
+                                      "type": "xs:double",
+                                      "minOccurs": "0"
+                                    }
+                                  },
+                                  {
+                                    "$": {
+                                      "name": "Wgs84Y",
+                                      "type": "xs:double",
+                                      "minOccurs": "0"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "diffgr:diffgram": [
+      {
+        "$": {
+          "xmlns:msdata": "urn:schemas-microsoft-com:xml-msdata",
+          "xmlns:diffgr": "urn:schemas-microsoft-com:xml-diffgram-v1"
+        },
+        "NewDataSet": [
+          {
+            "$": {
+              "xmlns": ""
+            },
+            "CASE_SUMMARY": [
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY1",
+                  "msdata:rowOrder": "0"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 13:35:14           "
+                ],
+                "Name": [
+                  "廣告招牌欲墜"
+                ],
+                "CaseLocationDistrict": [
+                  "中正區"
+                ],
+                "CaseLocationDescription": [
+                  "羅斯福路一段3號"
+                ],
+                "CaseDescription": [
+                  "招牌鬆動快掉\n陳情人陪同稽查人員前往"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "廣告招牌災情"
+                ],
+                "Wgs84X": [
+                  "121.51742553710938"
+                ],
+                "Wgs84Y": [
+                  "25.034236907958984"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY2",
+                  "msdata:rowOrder": "1"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 13:32:43           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "文山區"
+                ],
+                "CaseLocationDescription": [
+                  "興隆路四段58巷26弄1號到5號"
+                ],
+                "CaseDescription": [
+                  "樹倒占滿道路無法通行"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.56018829345703"
+                ],
+                "Wgs84Y": [
+                  "24.9856014251709"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY3",
+                  "msdata:rowOrder": "2"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 13:31:49           "
+                ],
+                "Name": [
+                  "交通號誌損壞"
+                ],
+                "CaseLocationDistrict": [
+                  "萬華區"
+                ],
+                "CaseLocationDescription": [
+                  "地標:  環河快速道路"
+                ],
+                "CaseDescription": [
+                  "忠孝橋下面環河快速道路往士林方向靠進玉泉泳游池交通號誌鐵片快要被吹掉"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "民生、基礎設施災情"
+                ],
+                "Wgs84X": [
+                  "121.48820495605469"
+                ],
+                "Wgs84Y": [
+                  "25.032207489013672"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY4",
+                  "msdata:rowOrder": "3"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 13:29:32           "
+                ],
+                "Name": [
+                  "前述以外其他災情"
+                ],
+                "CaseLocationDistrict": [
+                  "內湖區"
+                ],
+                "CaseLocationDescription": [
+                  "新明路312巷2-7號2-7號前的馬路"
+                ],
+                "CaseDescription": [
+                  "反映2-7號前面的馬路，被人惡意堆放鋼板與木板且沒有將其固定，市民擔心晚上若颱風來臨風速過大會造成附近居民行走的危險，希望相關單位能前往將障礙物移開。\n"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "其他災情"
+                ],
+                "Wgs84X": [
+                  "121.58133697509766"
+                ],
+                "Wgs84Y": [
+                  "25.05555534362793"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY5",
+                  "msdata:rowOrder": "4"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 13:22:51           "
+                ],
+                "Name": [
+                  "交通號誌損壞"
+                ],
+                "CaseLocationDistrict": [
+                  "中山區"
+                ],
+                "CaseLocationDescription": [
+                  "交叉路口:  民族東路 , 松江路，松江路南往北走，在右手邊角落，未過民族東路前"
+                ],
+                "CaseDescription": [
+                  "行人號誌燈已經垂落，剩下一根電線懸掛，擔心風大會整個掉落砸傷人，敬請盡快修復。"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "民生、基礎設施災情"
+                ],
+                "Wgs84X": [
+                  "121.53337097167969"
+                ],
+                "Wgs84Y": [
+                  "25.068244934082031"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY6",
+                  "msdata:rowOrder": "5"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 13:21:59           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "大安區"
+                ],
+                "CaseLocationDescription": [
+                  "青田街1巷6號與8號前面"
+                ],
+                "CaseDescription": [
+                  "新生國小樹木傾倒在青田街上 影響通行安全"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.53220367431641"
+                ],
+                "Wgs84Y": [
+                  "25.028949737548828"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY7",
+                  "msdata:rowOrder": "6"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 13:17:08           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "北投區"
+                ],
+                "CaseLocationDescription": [
+                  "承德路路六段331巷286號與290號中間"
+                ],
+                "CaseDescription": [
+                  "有棵路樹倒塌倒在產業道路上 影響通行安全\n"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.50988006591797"
+                ],
+                "Wgs84Y": [
+                  "25.104579925537109"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY8",
+                  "msdata:rowOrder": "7"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 13:15:14           "
+                ],
+                "Name": [
+                  "交通號誌損壞"
+                ],
+                "CaseLocationDistrict": [
+                  "中山區"
+                ],
+                "CaseLocationDescription": [
+                  "交叉路口:  北安路 , 明水路"
+                ],
+                "CaseDescription": [
+                  "四面交通號誌燈其中有一個，紅燈上的鐵罩被風吹到快要脫落"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "民生、基礎設施災情"
+                ],
+                "Wgs84X": [
+                  "121.54420471191406"
+                ],
+                "Wgs84Y": [
+                  "25.077447891235352"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY9",
+                  "msdata:rowOrder": "8"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 13:10:18           "
+                ],
+                "Name": [
+                  "廣告招牌欲墜"
+                ],
+                "CaseLocationDistrict": [
+                  "大安區"
+                ],
+                "CaseLocationDescription": [
+                  "交叉路口:  延吉街 , 市民大道"
+                ],
+                "CaseDescription": [
+                  "延吉街上靠近市民大道有一招牌(蠔飲)快要掉落"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "廣告招牌災情"
+                ],
+                "Wgs84X": [
+                  "121.55377197265625"
+                ],
+                "Wgs84Y": [
+                  "25.044252395629883"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY10",
+                  "msdata:rowOrder": "9"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 13:09:47           "
+                ],
+                "Name": [
+                  "交通號誌損壞"
+                ],
+                "CaseLocationDistrict": [
+                  "北投區"
+                ],
+                "CaseLocationDescription": [
+                  "中山北路七段219巷靠近中山北路219巷3弄口"
+                ],
+                "CaseDescription": [
+                  "219巷上車行號誌燈與行人號誌燈不連鎖，車子已經開始通行綠燈，行人也是綠燈，很危險"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "民生、基礎設施災情"
+                ],
+                "Wgs84X": [
+                  "121.53128814697266"
+                ],
+                "Wgs84Y": [
+                  "25.127965927124023"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY11",
+                  "msdata:rowOrder": "10"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 13:07:32           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "士林區"
+                ],
+                "CaseLocationDescription": [
+                  "忠誠路二段2號與德行東路口"
+                ],
+                "CaseDescription": [
+                  "行道樹被風吹倒"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.53079986572266"
+                ],
+                "Wgs84Y": [
+                  "25.10869026184082"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY12",
+                  "msdata:rowOrder": "11"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 13:07:19           "
+                ],
+                "Name": [
+                  "前述以外其他災情"
+                ],
+                "CaseLocationDistrict": [
+                  "大安區"
+                ],
+                "CaseLocationDescription": [
+                  "羅斯福路三段270號"
+                ],
+                "CaseDescription": [
+                  "公車候車亭的牌面倒在內側車道\r\n上述地點公車站牌掉落\r\n公車候車亭的牌面倒在內側車道\n上述地點公車站牌掉落\r\n公車候車亭的牌面倒在內側車道\n上述地點公車站牌掉落"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "其他災情"
+                ],
+                "Wgs84X": [
+                  "121.53072357177734"
+                ],
+                "Wgs84Y": [
+                  "25.018564224243164"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY13",
+                  "msdata:rowOrder": "12"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 13:00:13           "
+                ],
+                "Name": [
+                  "環境汙染(含垃圾清運)"
+                ],
+                "CaseLocationDistrict": [
+                  "中山區"
+                ],
+                "CaseLocationDescription": [
+                  "中山北路交叉路口:  中山北路 , 民生西路，中山北路上往南方向，從南京西路至民生西路之間"
+                ],
+                "CaseDescription": [
+                  "道路上散落許多枯枝，是人可以手工清除大的大小，請派員前往清除"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "環境汙染"
+                ],
+                "Wgs84X": [
+                  "121.52284240722656"
+                ],
+                "Wgs84Y": [
+                  "25.057914733886719"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY14",
+                  "msdata:rowOrder": "13"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 12:58:12           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "松山區"
+                ],
+                "CaseLocationDescription": [
+                  "敦化南路一段80巷12號"
+                ],
+                "CaseDescription": [
+                  "路樹倒塌"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.54811096191406"
+                ],
+                "Wgs84Y": [
+                  "25.046804428100586"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY15",
+                  "msdata:rowOrder": "14"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 12:56:58           "
+                ],
+                "Name": [
+                  "交通號誌損壞"
+                ],
+                "CaseLocationDistrict": [
+                  "中正區"
+                ],
+                "CaseLocationDescription": [
+                  "忠孝西路上 往東的方向要和重慶南路交叉口"
+                ],
+                "CaseDescription": [
+                  "紅綠燈搖晃"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "民生、基礎設施災情"
+                ],
+                "Wgs84X": [
+                  "121.50762176513672"
+                ],
+                "Wgs84Y": [
+                  "25.048622131347656"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY16",
+                  "msdata:rowOrder": "15"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 12:52:45           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "松山區"
+                ],
+                "CaseLocationDescription": [
+                  "交叉路口:  長春路 , 敦化北路,往長庚醫院方向爵士麵包店"
+                ],
+                "CaseDescription": [
+                  "樹倒占用左側道路一線道"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.54895782470703"
+                ],
+                "Wgs84Y": [
+                  "25.054389953613281"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY17",
+                  "msdata:rowOrder": "16"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 12:45:14           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "大安區"
+                ],
+                "CaseLocationDescription": [
+                  "青田街1巷6號"
+                ],
+                "CaseDescription": [
+                  "風吹斷路樹倒在車上\r\n路樹倒下，壓到車輛"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.53220367431641"
+                ],
+                "Wgs84Y": [
+                  "25.028949737548828"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY18",
+                  "msdata:rowOrder": "17"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 12:44:16           "
+                ],
+                "Name": [
+                  "建物輕微受損"
+                ],
+                "CaseLocationDistrict": [
+                  "中山區"
+                ],
+                "CaseLocationDescription": [
+                  "林森北路122號"
+                ],
+                "CaseDescription": [
+                  "上述地點建物外牆磁磚掉落,敬請派員前往確認查處"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "建物毀損"
+                ],
+                "Wgs84X": [
+                  "121.52529144287109"
+                ],
+                "Wgs84Y": [
+                  "25.050796508789062"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY19",
+                  "msdata:rowOrder": "18"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 12:44:03           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "中正區"
+                ],
+                "CaseLocationDescription": [
+                  "和平西路一段109號"
+                ],
+                "CaseDescription": [
+                  "樹木傾倒影響交通"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.51743316650391"
+                ],
+                "Wgs84Y": [
+                  "25.027084350585938"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY20",
+                  "msdata:rowOrder": "19"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 12:38:55           "
+                ],
+                "Name": [
+                  "廣告招牌欲墜"
+                ],
+                "CaseLocationDistrict": [
+                  "北投區"
+                ],
+                "CaseLocationDescription": [
+                  "台北市北投區光明路141號"
+                ],
+                "CaseDescription": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "廣告招牌災情"
+                ],
+                "Wgs84X": [
+                  "121.50238037109375"
+                ],
+                "Wgs84Y": [
+                  "25.134838104248047"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY21",
+                  "msdata:rowOrder": "20"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 12:36:24           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "大同區"
+                ],
+                "CaseLocationDescription": [
+                  "延平北路一段69巷3號"
+                ],
+                "CaseDescription": [
+                  "民宅的樹倒塌在家門口"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.51232147216797"
+                ],
+                "Wgs84Y": [
+                  "25.051374435424805"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY22",
+                  "msdata:rowOrder": "21"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 12:34:47           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "大同區"
+                ],
+                "CaseLocationDescription": [
+                  "松聯路接近松仁路口"
+                ],
+                "CaseDescription": [
+                  "路樹橫躺道路上"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.51922607421875"
+                ],
+                "Wgs84Y": [
+                  "25.057907104492188"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY23",
+                  "msdata:rowOrder": "22"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 12:34:21           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "萬華區"
+                ],
+                "CaseLocationDescription": [
+                  "莒光路253號"
+                ],
+                "CaseDescription": [
+                  "案址前路樹樹枝掉落，砸中路旁停放車輛"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.50032043457031"
+                ],
+                "Wgs84Y": [
+                  "25.030994415283203"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY24",
+                  "msdata:rowOrder": "23"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 12:34:21           "
+                ],
+                "Name": [
+                  "前述以外其他災情"
+                ],
+                "CaseLocationDistrict": [
+                  "萬華區"
+                ],
+                "CaseLocationDescription": [
+                  "貴陽街二段250號-260號"
+                ],
+                "CaseDescription": [
+                  "案址小葉欖仁樹過於茂盛且未有支撐，花台已破裂，恐有傾倒之危險。"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "其他災情"
+                ],
+                "Wgs84X": [
+                  "121.49839019775391"
+                ],
+                "Wgs84Y": [
+                  "25.039951324462891"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY25",
+                  "msdata:rowOrder": "24"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 12:34:09           "
+                ],
+                "Name": [
+                  "廣告招牌欲墜"
+                ],
+                "CaseLocationDistrict": [
+                  "信義區"
+                ],
+                "CaseLocationDescription": [
+                  "松德路273號4樓"
+                ],
+                "CaseDescription": [
+                  "一個售屋廣告招牌(疑似為中信房屋)"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "廣告招牌災情"
+                ],
+                "Wgs84X": [
+                  "121.57476043701172"
+                ],
+                "Wgs84Y": [
+                  "25.03282356262207"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY26",
+                  "msdata:rowOrder": "25"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 12:31:23           "
+                ],
+                "Name": [
+                  "前述以外其他災情"
+                ],
+                "CaseLocationDistrict": [
+                  "中正區"
+                ],
+                "CaseLocationDescription": [
+                  "中華路二段中華路2段和桂陽路和桂林路中間"
+                ],
+                "CaseDescription": [
+                  "風大導致葉子樹葉掉落 影響車輛通行"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "其他災情"
+                ],
+                "Wgs84X": [
+                  "121.50681304931641"
+                ],
+                "Wgs84Y": [
+                  "25.037189483642578"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY27",
+                  "msdata:rowOrder": "26"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 12:28:33           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "信義區"
+                ],
+                "CaseLocationDescription": [
+                  "松廉路3號"
+                ],
+                "CaseDescription": [
+                  "路樹倒下，倒在路中間"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.56732940673828"
+                ],
+                "Wgs84Y": [
+                  "25.033760070800781"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY28",
+                  "msdata:rowOrder": "27"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 12:25:55           "
+                ],
+                "Name": [
+                  "廣告招牌欲墜"
+                ],
+                "CaseLocationDistrict": [
+                  "大安區"
+                ],
+                "CaseLocationDescription": [
+                  "大安路一段216號旁(早餐店招牌)"
+                ],
+                "CaseDescription": [
+                  "招牌有部分傾斜及有部分的招牌掉落在馬路上"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "廣告招牌災情"
+                ],
+                "Wgs84X": [
+                  "121.5458984375"
+                ],
+                "Wgs84Y": [
+                  "25.034465789794922"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY29",
+                  "msdata:rowOrder": "28"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 12:24:49           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "大安區"
+                ],
+                "CaseLocationDescription": [
+                  "仁愛路四段64號當心行人旁的路樹"
+                ],
+                "CaseDescription": [
+                  "樹枝斷裂卡在該處,可能會掉落."
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.54768371582031"
+                ],
+                "Wgs84Y": [
+                  "25.037595748901367"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY30",
+                  "msdata:rowOrder": "29"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 12:22:12           "
+                ],
+                "Name": [
+                  "交通號誌損壞"
+                ],
+                "CaseLocationDistrict": [
+                  "士林區"
+                ],
+                "CaseLocationDescription": [
+                  "交叉路口:  承德路 , 後港街"
+                ],
+                "CaseDescription": [
+                  "四面號誌燈不亮"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "民生、基礎設施災情"
+                ],
+                "Wgs84X": [
+                  "121.52317047119141"
+                ],
+                "Wgs84Y": [
+                  "25.082218170166016"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY31",
+                  "msdata:rowOrder": "30"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 12:19:29           "
+                ],
+                "Name": [
+                  "路燈故障"
+                ],
+                "CaseLocationDistrict": [
+                  "松山區"
+                ],
+                "CaseLocationDescription": [
+                  "民生東路四段131巷21號"
+                ],
+                "CaseDescription": [
+                  "路燈燈罩內因下雨積水快要滿了，感覺快要掉下來，請派員前往處理"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "民生、基礎設施災情"
+                ],
+                "Wgs84X": [
+                  "121.55350494384766"
+                ],
+                "Wgs84Y": [
+                  "25.059242248535156"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY32",
+                  "msdata:rowOrder": "31"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 12:19:03           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "文山區"
+                ],
+                "CaseLocationDescription": [
+                  "羅斯福路五段203號中間分隔島的路樹"
+                ],
+                "CaseDescription": [
+                  "路樹有傾斜的狀況."
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.53903198242188"
+                ],
+                "Wgs84Y": [
+                  "25.002340316772461"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY33",
+                  "msdata:rowOrder": "32"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 12:18:37           "
+                ],
+                "Name": [
+                  "交通號誌損壞"
+                ],
+                "CaseLocationDistrict": [
+                  "內湖區"
+                ],
+                "CaseLocationDescription": [
+                  "交叉路口:  舊宗路二段 , 堤頂大道(接近舊宗路二段高速公路出口處)"
+                ],
+                "CaseDescription": [
+                  "黃色紐澤西護欄被吹到路中央"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "民生、基礎設施災情"
+                ],
+                "Wgs84X": [
+                  "121.57229614257813"
+                ],
+                "Wgs84Y": [
+                  "25.074594497680664"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY34",
+                  "msdata:rowOrder": "33"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 12:14:21           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "大安區"
+                ],
+                "CaseLocationDescription": [
+                  "仁愛路四段296號296前面"
+                ],
+                "CaseDescription": [
+                  "路樹倒塌砸中機車(無人員受傷)\r\n上述地點旁邊有一個公共電話亭，行道樹倒在機車停車格。"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.55356597900391"
+                ],
+                "Wgs84Y": [
+                  "25.037405014038086"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY35",
+                  "msdata:rowOrder": "34"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 12:10:33           "
+                ],
+                "Name": [
+                  "電線(桿)或纜線毀損"
+                ],
+                "CaseLocationDistrict": [
+                  "松山區"
+                ],
+                "CaseLocationDescription": [
+                  "民生東路五段36巷8弄42號前"
+                ],
+                "CaseDescription": [
+                  "纜線垂落已經接近地面，市民表示不清楚是什麼線，請盡速派員前往處理"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "民生、基礎設施災情"
+                ],
+                "Wgs84X": [
+                  "121.55915832519531"
+                ],
+                "Wgs84Y": [
+                  "25.057060241699219"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY36",
+                  "msdata:rowOrder": "35"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 12:07:39           "
+                ],
+                "Name": [
+                  "交通號誌損壞"
+                ],
+                "CaseLocationDistrict": [
+                  "士林區"
+                ],
+                "CaseLocationDescription": [
+                  "承德路四段77巷79號"
+                ],
+                "CaseDescription": [
+                  "承德路四段77巷79號前的十字路口，四面號誌燈不亮 "
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "民生、基礎設施災情"
+                ],
+                "Wgs84X": [
+                  "121.51885986328125"
+                ],
+                "Wgs84Y": [
+                  "25.091442108154297"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY37",
+                  "msdata:rowOrder": "36"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 12:03:08           "
+                ],
+                "Name": [
+                  "交通號誌損壞"
+                ],
+                "CaseLocationDistrict": [
+                  "松山區"
+                ],
+                "CaseLocationDescription": [
+                  "八德路,三段,193號,"
+                ],
+                "CaseDescription": [
+                  "紅綠燈的殼快掉下來了，非常危險"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "民生、基礎設施災情"
+                ],
+                "Wgs84X": [
+                  "121.55615997314453"
+                ],
+                "Wgs84Y": [
+                  "25.048160552978516"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY38",
+                  "msdata:rowOrder": "37"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 12:00:20           "
+                ],
+                "Name": [
+                  "前述以外水利設施"
+                ],
+                "CaseLocationDistrict": [
+                  "萬華區"
+                ],
+                "CaseLocationDescription": [
+                  "環河南路三段325號325-327號間的巷子"
+                ],
+                "CaseDescription": [
+                  "地下水管破掉 漏水"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "水利設施災害"
+                ],
+                "Wgs84X": [
+                  "121.49407958984375"
+                ],
+                "Wgs84Y": [
+                  "25.017831802368164"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY39",
+                  "msdata:rowOrder": "38"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 11:57:54           "
+                ],
+                "Name": [
+                  "廣告招牌掉落"
+                ],
+                "CaseLocationDistrict": [
+                  "大安區"
+                ],
+                "CaseLocationDescription": [
+                  "大安路一段218號"
+                ],
+                "CaseDescription": [
+                  "7-11的樓上招牌因為強烈風吹導致招牌的招牌面掉下來及燈管外漏"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "廣告招牌災情"
+                ],
+                "Wgs84X": [
+                  "121.5458984375"
+                ],
+                "Wgs84Y": [
+                  "25.034412384033203"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY40",
+                  "msdata:rowOrder": "39"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 11:51:42           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "文山區"
+                ],
+                "CaseLocationDescription": [
+                  "臺北市文山區興隆路2段153巷6弄9B  1-1對面山坡樹木過於茂盛，恐因颱風來襲折斷"
+                ],
+                "CaseDescription": [
+                  "樹木過於茂密恐因颱風來襲折斷\n該址為私人土地，上方有多棵大樹，恐因風力過強致樹木折斷，而有砸傷人車之可能，然因樹木太高,無法以人力處理。"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.54822540283203"
+                ],
+                "Wgs84Y": [
+                  "25.001312255859375"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY41",
+                  "msdata:rowOrder": "40"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 11:46:29           "
+                ],
+                "Name": [
+                  "路燈故障"
+                ],
+                "CaseLocationDistrict": [
+                  "信義區"
+                ],
+                "CaseLocationDescription": [
+                  "松高路12號"
+                ],
+                "CaseDescription": [
+                  "新光三越a8館停車場路口(松高路右轉200公尺處)，左邊第一根路燈有燈殼脫落情形"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "民生、基礎設施災情"
+                ],
+                "Wgs84X": [
+                  "121.56680297851563"
+                ],
+                "Wgs84Y": [
+                  "25.0388126373291"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY42",
+                  "msdata:rowOrder": "41"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 11:42:31           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "中山區"
+                ],
+                "CaseLocationDescription": [
+                  "建國北路二段88號"
+                ],
+                "CaseDescription": [
+                  "路樹倒下壓到車輛"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.53651428222656"
+                ],
+                "Wgs84Y": [
+                  "25.056198120117188"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY43",
+                  "msdata:rowOrder": "42"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 11:42:22           "
+                ],
+                "Name": [
+                  "電線(桿)或纜線毀損"
+                ],
+                "CaseLocationDistrict": [
+                  "大同區"
+                ],
+                "CaseLocationDescription": [
+                  "台北市大同區涼州街(延平北路2段與安西街間)，電纜雜亂"
+                ],
+                "CaseDescription": [
+                  "台北市大同區涼州街(延平北路2段與安西街間)，電纜雜亂"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "民生、基礎設施災情"
+                ],
+                "Wgs84X": [
+                  "121.51187133789063"
+                ],
+                "Wgs84Y": [
+                  "25.060693740844727"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY44",
+                  "msdata:rowOrder": "43"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 11:41:15           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "中正區"
+                ],
+                "CaseLocationDescription": [
+                  "和平西路一段120號"
+                ],
+                "CaseDescription": [
+                  "前方行道樹的分枝掉落。\r\n前方行道樹的分枝掉落。 "
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.51706695556641"
+                ],
+                "Wgs84Y": [
+                  "25.026838302612305"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY45",
+                  "msdata:rowOrder": "44"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 11:38:12           "
+                ],
+                "Name": [
+                  "自來水停水"
+                ],
+                "CaseLocationDistrict": [
+                  "大安區"
+                ],
+                "CaseLocationDescription": [
+                  "潮州街60巷7弄8號1樓"
+                ],
+                "CaseDescription": [
+                  "民眾反映住戶停水，並請後續與住戶陳小姐0933983194聯繫"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "民生、基礎設施災情"
+                ],
+                "Wgs84X": [
+                  "121.52394866943359"
+                ],
+                "Wgs84Y": [
+                  "25.028024673461914"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY46",
+                  "msdata:rowOrder": "45"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 11:37:47           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "松山區"
+                ],
+                "CaseLocationDescription": [
+                  "地標:  松山機場"
+                ],
+                "CaseDescription": [
+                  " 前方  民權東路三段四段跟敦化北路口 路口歡迎的告示牌旁的路樹倒塌  占用半個車道"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.55194854736328"
+                ],
+                "Wgs84Y": [
+                  "25.063161849975586"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY47",
+                  "msdata:rowOrder": "46"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 11:32:05           "
+                ],
+                "Name": [
+                  "電線(桿)或纜線毀損"
+                ],
+                "CaseLocationDistrict": [
+                  "士林區"
+                ],
+                "CaseLocationDescription": [
+                  "士林區德行東路74巷21號對面電桿"
+                ],
+                "CaseDescription": [
+                  "電線杆上電線疑似短路有火花"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "民生、基礎設施災情"
+                ],
+                "Wgs84X": [
+                  "121.52755737304688"
+                ],
+                "Wgs84Y": [
+                  "25.1062068939209"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY48",
+                  "msdata:rowOrder": "47"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 11:31:39           "
+                ],
+                "Name": [
+                  "環境汙染(含垃圾清運)"
+                ],
+                "CaseLocationDistrict": [
+                  "士林區"
+                ],
+                "CaseLocationDescription": [
+                  "仰德大道一段110號下山處國安局"
+                ],
+                "CaseDescription": [
+                  "國安局之前車道上掉落了一個樹枝"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "環境汙染"
+                ],
+                "Wgs84X": [
+                  "121.53839874267578"
+                ],
+                "Wgs84Y": [
+                  "25.10478401184082"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY49",
+                  "msdata:rowOrder": "48"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 11:25:42           "
+                ],
+                "Name": [
+                  "環境汙染(含垃圾清運)"
+                ],
+                "CaseLocationDistrict": [
+                  "松山區"
+                ],
+                "CaseLocationDescription": [
+                  "八德路三段177號、179號"
+                ],
+                "CaseDescription": [
+                  "道路上滿地的玻璃碎屑"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "環境汙染"
+                ],
+                "Wgs84X": [
+                  "121.55570983886719"
+                ],
+                "Wgs84Y": [
+                  "25.04815673828125"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY50",
+                  "msdata:rowOrder": "49"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 11:25:21           "
+                ],
+                "Name": [
+                  "環境汙染(含垃圾清運)"
+                ],
+                "CaseLocationDistrict": [
+                  "中正區"
+                ],
+                "CaseLocationDescription": [
+                  "中山南路地標:  教育部前"
+                ],
+                "CaseDescription": [
+                  "快車道上有大王椰子樹樹葉掉落"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "環境汙染"
+                ],
+                "Wgs84X": [
+                  "121.51905822753906"
+                ],
+                "Wgs84Y": [
+                  "25.042537689208984"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY51",
+                  "msdata:rowOrder": "50"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 11:21:39           "
+                ],
+                "Name": [
+                  "前述以外其他災情"
+                ],
+                "CaseLocationDistrict": [
+                  "北投區"
+                ],
+                "CaseLocationDescription": [
+                  "湖山路一段12號勝利街交叉口"
+                ],
+                "CaseDescription": [
+                  "與勝利街交叉口，交通號誌上的路名牌被快要掉落"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "其他災情"
+                ],
+                "Wgs84X": [
+                  "121.53903198242188"
+                ],
+                "Wgs84Y": [
+                  "25.154052734375"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY52",
+                  "msdata:rowOrder": "51"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 11:20:16           "
+                ],
+                "Name": [
+                  "變電所、電廠受災"
+                ],
+                "CaseLocationDistrict": [
+                  "松山區"
+                ],
+                "CaseLocationDescription": [
+                  "東興路13-1號"
+                ],
+                "CaseDescription": [
+                  "變電箱的黃色門板掉落 市民擔憂會觸電危險"
+                ],
+                "CaseComplete": [
+                  "false"
+                ],
+                "PName": [
+                  "民生、基礎設施災情"
+                ],
+                "Wgs84X": [
+                  "121.56553649902344"
+                ],
+                "Wgs84Y": [
+                  "25.050247192382812"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY53",
+                  "msdata:rowOrder": "52"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 11:18:45           "
+                ],
+                "Name": [
+                  "環境汙染(含垃圾清運)"
+                ],
+                "CaseLocationDistrict": [
+                  "中正區"
+                ],
+                "CaseLocationDescription": [
+                  "臨沂街71巷2弄5號前"
+                ],
+                "CaseDescription": [
+                  "該址出入口前被人丟棄一大堆廢紙、廢鐵，擔心颱風吹散，請協助清除"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "環境汙染"
+                ],
+                "Wgs84X": [
+                  "121.52828216552734"
+                ],
+                "Wgs84Y": [
+                  "25.035043716430664"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY54",
+                  "msdata:rowOrder": "53"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 11:17:29           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "大安區"
+                ],
+                "CaseLocationDescription": [
+                  "信義路四段大安路與敦化南路之間"
+                ],
+                "CaseDescription": [
+                  "路樹倒塌，妨礙車輛通行，請派員前往清除"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.55936431884766"
+                ],
+                "Wgs84Y": [
+                  "25.03309440612793"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY55",
+                  "msdata:rowOrder": "54"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 11:12:27           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "內湖區"
+                ],
+                "CaseLocationDescription": [
+                  "交叉路口:  康寧路一段 , 金湖路"
+                ],
+                "CaseDescription": [
+                  "2棵路樹樹幹龐大壓到民宅屋頂，屋主擔心颱風來會壓垮屋頂"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.60124969482422"
+                ],
+                "Wgs84Y": [
+                  "25.075258255004883"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY56",
+                  "msdata:rowOrder": "55"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 11:07:55           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "文山區"
+                ],
+                "CaseLocationDescription": [
+                  "秀明路一段79巷1弄42號"
+                ],
+                "CaseDescription": [
+                  "門口的樹枝倒在路上半中央"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.56476593017578"
+                ],
+                "Wgs84Y": [
+                  "24.990121841430664"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY57",
+                  "msdata:rowOrder": "56"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 11:02:54           "
+                ],
+                "Name": [
+                  "前述以外其他災情"
+                ],
+                "CaseLocationDistrict": [
+                  "文山區"
+                ],
+                "CaseLocationDescription": [
+                  "台北市文山區辛亥路7段1號前"
+                ],
+                "CaseDescription": [
+                  "電線被路樹包住民眾恐颱風來襲造成危險"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "其他災情"
+                ],
+                "Wgs84X": [
+                  "121.55254364013672"
+                ],
+                "Wgs84Y": [
+                  "24.987655639648438"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY58",
+                  "msdata:rowOrder": "57"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 11:00:31           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "中正區"
+                ],
+                "CaseLocationDescription": [
+                  "西藏路73號"
+                ],
+                "CaseDescription": [
+                  "路樹倒塌"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.50487518310547"
+                ],
+                "Wgs84Y": [
+                  "25.03001594543457"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY59",
+                  "msdata:rowOrder": "58"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 10:58:48           "
+                ],
+                "Name": [
+                  "前述以外其他災情"
+                ],
+                "CaseLocationDistrict": [
+                  "大安區"
+                ],
+                "CaseLocationDescription": [
+                  "敦化南路二段69號"
+                ],
+                "CaseDescription": [
+                  "有一座路燈(編號259)，疑似底座沒鎖緊，隨著風吹搖晃的很嚴重"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "其他災情"
+                ],
+                "Wgs84X": [
+                  "121.54914855957031"
+                ],
+                "Wgs84Y": [
+                  "25.030679702758789"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY60",
+                  "msdata:rowOrder": "59"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 10:45:28           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "松山區"
+                ],
+                "CaseLocationDescription": [
+                  "交叉路口:  光復北路 , 南京東路"
+                ],
+                "CaseDescription": [
+                  "在光復北路上的外側車道有路樹倒塌"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.55789184570313"
+                ],
+                "Wgs84Y": [
+                  "25.051548004150391"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY61",
+                  "msdata:rowOrder": "60"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 10:41:08           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "松山區"
+                ],
+                "CaseLocationDescription": [
+                  "光復北路46號"
+                ],
+                "CaseDescription": [
+                  "光復北路46號 前路樹樹枝倒塌 占用一個半車道"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.55768585205078"
+                ],
+                "Wgs84Y": [
+                  "25.049591064453125"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY62",
+                  "msdata:rowOrder": "61"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 10:36:40           "
+                ],
+                "Name": [
+                  "環境汙染(含垃圾清運)"
+                ],
+                "CaseLocationDistrict": [
+                  "中山區"
+                ],
+                "CaseLocationDescription": [
+                  "內湖路一段"
+                ],
+                "CaseDescription": [
+                  "內湖路一段上美麗華前面\n約有好幾球的樹枝球，散落道路上\n靠近敬業路四段與內湖一路一段周邊的美麗華周邊(沿著捷運)\n"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "環境汙染"
+                ],
+                "Wgs84X": [
+                  "121.56025695800781"
+                ],
+                "Wgs84Y": [
+                  "25.08473014831543"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY63",
+                  "msdata:rowOrder": "62"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 10:26:21           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "萬華區"
+                ],
+                "CaseLocationDescription": [
+                  "環河南路二段147號"
+                ],
+                "CaseDescription": [
+                  "路樹傾倒"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.49298858642578"
+                ],
+                "Wgs84Y": [
+                  "25.033670425415039"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY64",
+                  "msdata:rowOrder": "63"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 10:22:26           "
+                ],
+                "Name": [
+                  "自來水停水"
+                ],
+                "CaseLocationDistrict": [
+                  "內湖區"
+                ],
+                "CaseLocationDescription": [
+                  "康寧路三段133號"
+                ],
+                "CaseDescription": [
+                  "該棟大樓停水"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "民生、基礎設施災情"
+                ],
+                "Wgs84X": [
+                  "121.6065673828125"
+                ],
+                "Wgs84Y": [
+                  "25.072795867919922"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY65",
+                  "msdata:rowOrder": "64"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 10:08:47           "
+                ],
+                "Name": [
+                  "交通號誌損壞"
+                ],
+                "CaseLocationDistrict": [
+                  "中正區"
+                ],
+                "CaseLocationDescription": [
+                  "交叉路口:  漢口街 , 館前路"
+                ],
+                "CaseDescription": [
+                  "上述交岔口(市民無法提供正確號誌角落位置)設置的交通號誌桿已經歪斜且生鏽隨時可能斷裂，另於號誌內的纜線也垂落目前約2層樓高度，隨時有掉落之慮。 "
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "民生、基礎設施災情"
+                ],
+                "Wgs84X": [
+                  "121.51500701904297"
+                ],
+                "Wgs84Y": [
+                  "25.045162200927734"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY66",
+                  "msdata:rowOrder": "65"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 09:56:38           "
+                ],
+                "Name": [
+                  "建物輕微受損"
+                ],
+                "CaseLocationDistrict": [
+                  "士林區"
+                ],
+                "CaseLocationDescription": [
+                  "承德路四段150號"
+                ],
+                "CaseDescription": [
+                  "上址為20幾層樓的大樓，目前在做大樓外牆的施工，有小磁磚一直掉落\r\n該大樓正在整修，沒有防護，目前磁磚正在掉落，剛剛已經有掉落一片木板，外面風很大，市民擔心會有危險。"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "建物毀損"
+                ],
+                "Wgs84X": [
+                  "121.52311706542969"
+                ],
+                "Wgs84Y": [
+                  "25.085138320922852"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY67",
+                  "msdata:rowOrder": "66"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 09:55:28           "
+                ],
+                "Name": [
+                  "交通號誌損壞"
+                ],
+                "CaseLocationDistrict": [
+                  "士林區"
+                ],
+                "CaseLocationDescription": [
+                  "社中街整條路段"
+                ],
+                "CaseDescription": [
+                  "車行號誌燈不連鎖 造成車輛堵塞"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "民生、基礎設施災情"
+                ],
+                "Wgs84X": [
+                  "121.51052093505859"
+                ],
+                "Wgs84Y": [
+                  "25.08929443359375"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY68",
+                  "msdata:rowOrder": "67"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 09:51:05           "
+                ],
+                "Name": [
+                  "前述以外之道路、隧道災情"
+                ],
+                "CaseLocationDistrict": [
+                  "信義區"
+                ],
+                "CaseLocationDescription": [
+                  "信義路六段76巷2弄81號"
+                ],
+                "CaseDescription": [
+                  "水溝溝蓋鬆動 可能造成人員受傷 請予以察看處理"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "道路、隧道災情"
+                ],
+                "Wgs84X": [
+                  "121.57608032226563"
+                ],
+                "Wgs84Y": [
+                  "25.033111572265625"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY69",
+                  "msdata:rowOrder": "68"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 09:45:08           "
+                ],
+                "Name": [
+                  "環境汙染(含垃圾清運)"
+                ],
+                "CaseLocationDistrict": [
+                  "信義區"
+                ],
+                "CaseLocationDescription": [
+                  "莊敬路305號前方騎樓箸子旁"
+                ],
+                "CaseDescription": [
+                  "上述地點有多件垃圾(便當盒,飲料杯等),敬請派員前往清除"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "環境汙染"
+                ],
+                "Wgs84X": [
+                  "121.56333160400391"
+                ],
+                "Wgs84Y": [
+                  "25.028484344482422"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY70",
+                  "msdata:rowOrder": "69"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 09:38:42           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "北投區"
+                ],
+                "CaseLocationDescription": [
+                  "台北市北投區東昇路至頂湖方向"
+                ],
+                "CaseDescription": [
+                  ".110-楊.民眾至分隊報案"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.52825927734375"
+                ],
+                "Wgs84Y": [
+                  "25.154754638671875"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY71",
+                  "msdata:rowOrder": "70"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 09:20:24           "
+                ],
+                "Name": [
+                  "廣告招牌掉落"
+                ],
+                "CaseLocationDistrict": [
+                  "萬華區"
+                ],
+                "CaseLocationDescription": [
+                  "康定路84號民眾表示在此地址附近，無法提供完整地址"
+                ],
+                "CaseDescription": [
+                  "民眾表示招牌為木板塊製，因風大而掉落一小塊，差點砸到行人，有再度掉下砸到行人的疑慮，敬請相關單位前往處理。"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "廣告招牌災情"
+                ],
+                "Wgs84X": [
+                  "121.50222778320313"
+                ],
+                "Wgs84Y": [
+                  "25.041988372802734"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY72",
+                  "msdata:rowOrder": "71"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 09:07:01           "
+                ],
+                "Name": [
+                  "前述以外其他災情"
+                ],
+                "CaseLocationDistrict": [
+                  "中正區"
+                ],
+                "CaseLocationDescription": [
+                  "汀州路三段2號往中正河濱公園方向"
+                ],
+                "CaseDescription": [
+                  "客家主題公園跨堤上有一個花圃上水管爆裂，水一職噴出。"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "其他災情"
+                ],
+                "Wgs84X": [
+                  "121.52545166015625"
+                ],
+                "Wgs84Y": [
+                  "25.02020263671875"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY73",
+                  "msdata:rowOrder": "72"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 09:02:07           "
+                ],
+                "Name": [
+                  "環境汙染(含垃圾清運)"
+                ],
+                "CaseLocationDistrict": [
+                  "中山區"
+                ],
+                "CaseLocationDescription": [
+                  "北安路541-2號1樓旁邊"
+                ],
+                "CaseDescription": [
+                  "黃色垃圾包及臉盆(臉盆內有碎玻璃),敬請派員前往清除"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "環境汙染"
+                ],
+                "Wgs84X": [
+                  "121.54761505126953"
+                ],
+                "Wgs84Y": [
+                  "25.080215454101562"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY74",
+                  "msdata:rowOrder": "73"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 08:58:37           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "松山區"
+                ],
+                "CaseLocationDescription": [
+                  "復興北路15-4號"
+                ],
+                "CaseDescription": [
+                  "有四棵路樹傾斜30至40度，其中有一個水泥基座不穩，擔心颱風來襲強風會造成傾倒。"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.54425811767578"
+                ],
+                "Wgs84Y": [
+                  "25.048604965209961"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY75",
+                  "msdata:rowOrder": "74"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 08:58:22           "
+                ],
+                "Name": [
+                  "路燈故障"
+                ],
+                "CaseLocationDistrict": [
+                  "中山區"
+                ],
+                "CaseLocationDescription": [
+                  "中山北路三段新生高架道路上(中山北路三段)"
+                ],
+                "CaseDescription": [
+                  "新生高架道路上(從劍潭上來過了圓山方向一大段路燈亮著)\n"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "民生、基礎設施災情"
+                ],
+                "Wgs84X": [
+                  "121.52403259277344"
+                ],
+                "Wgs84Y": [
+                  "25.073408126831055"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY76",
+                  "msdata:rowOrder": "75"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 08:57:37           "
+                ],
+                "Name": [
+                  "環境汙染(含垃圾清運)"
+                ],
+                "CaseLocationDistrict": [
+                  "士林區"
+                ],
+                "CaseLocationDescription": [
+                  "中山北路七段39號前方車道"
+                ],
+                "CaseDescription": [
+                  "車禍導致路面油漬敬請派員前往清除(士林分局員警通報)"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "環境汙染"
+                ],
+                "Wgs84X": [
+                  "121.53065490722656"
+                ],
+                "Wgs84Y": [
+                  "25.119598388671875"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY77",
+                  "msdata:rowOrder": "76"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 08:53:30           "
+                ],
+                "Name": [
+                  "建物輕微受損"
+                ],
+                "CaseLocationDistrict": [
+                  "大同區"
+                ],
+                "CaseLocationDescription": [
+                  "台北市大同區敦煌路165號4樓頂樓"
+                ],
+                "CaseDescription": [
+                  "鐵皮快要掉落，通知110朱。蘇迪勒"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "建物毀損"
+                ],
+                "Wgs84X": [
+                  "121.51136779785156"
+                ],
+                "Wgs84Y": [
+                  "25.076631546020508"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY78",
+                  "msdata:rowOrder": "77"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 08:46:11           "
+                ],
+                "Name": [
+                  "路燈故障"
+                ],
+                "CaseLocationDistrict": [
+                  "中山區"
+                ],
+                "CaseLocationDescription": [
+                  "地標:  新生高架橋上，靠近圓山周圍"
+                ],
+                "CaseDescription": [
+                  "路燈全亮"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "民生、基礎設施災情"
+                ],
+                "Wgs84X": [
+                  "121.52635192871094"
+                ],
+                "Wgs84Y": [
+                  "25.073064804077148"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY79",
+                  "msdata:rowOrder": "78"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 08:01:54           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "大安區"
+                ],
+                "CaseLocationDescription": [
+                  "台北市大安區誠安里安東街35巷1號福祐宮前路樹傾斜虛扶正"
+                ],
+                "CaseDescription": [
+                  "福祐宮前路樹傾斜"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.54279327392578"
+                ],
+                "Wgs84Y": [
+                  "25.044031143188477"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY80",
+                  "msdata:rowOrder": "79"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-07 00:09:58           "
+                ],
+                "Name": [
+                  "路樹傾倒"
+                ],
+                "CaseLocationDistrict": [
+                  "北投區"
+                ],
+                "CaseLocationDescription": [
+                  "奇岩路 與 崇仰一路 交叉路口"
+                ],
+                "CaseDescription": [
+                  "奇岩所員警在場"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "路樹災情"
+                ],
+                "Wgs84X": [
+                  "121.51190948486328"
+                ],
+                "Wgs84Y": [
+                  "25.125759124755859"
+                ]
+              },
+              {
+                "$": {
+                  "diffgr:id": "CASE_SUMMARY81",
+                  "msdata:rowOrder": "80"
+                },
+                "DPName": [
+                  "蘇迪勒颱風"
+                ],
+                "CaseTime": [
+                  "2015-08-06 22:16:09           "
+                ],
+                "Name": [
+                  "路燈故障"
+                ],
+                "CaseLocationDistrict": [
+                  "松山區"
+                ],
+                "CaseLocationDescription": [
+                  "市民大道四段169號的前方"
+                ],
+                "CaseDescription": [
+                  "路燈的燈泡被風吹走，且風過大路燈地基不穩，地基有裂縫會搖晃，市民覺得路燈隨時會倒塌，請單位前往協助。"
+                ],
+                "CaseComplete": [
+                  "true"
+                ],
+                "PName": [
+                  "民生、基礎設施災情"
+                ],
+                "Wgs84X": [
+                  "121.55149841308594"
+                ],
+                "Wgs84Y": [
+                  "25.044790267944336"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
