@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Typhoon</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+  <style type="text/css">
+/*    thead {
+      position: fixed;
+    }*/
+  </style>
+</head>
+<body ng-app="app" ng-controller="MainController as mainCtrl">
+
+  <button class="btn btn-default" type="submit" ng-click="mainCtrl.refresh()">Refresh</button>
+  
+  <div class="container">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>災情</th>
+          <th>分類</th>
+          <th>地區</th>
+          <th>地址</th>
+          <th>災情描述</th>
+          <th>颱風</th>
+          <th>時間</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="row in mainCtrl.data" ng-class="{success: row.CaseComplete[0]=='true'}">
+          <td>{{row.Name[0]}}</td>
+          <td>{{row.PName[0]}}</td>
+          <td>{{row.CaseLocationDistrict[0]}}</td>
+          <td>{{row.CaseLocationDescription[0]}}</td>
+          <td>{{row.CaseDescription[0]}}</td>
+          <td>{{row.DPName[0]}}</td>
+          <td>{{row.CaseTime[0]}}</td>
+        </tr>
+      </tbody>
+    </table>    
+  </div>
+
+
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
